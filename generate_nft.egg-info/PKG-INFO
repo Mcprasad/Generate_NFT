@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: generate-nft
+Version: 0.0.1
+Summary: Generate random mutations of an image for an NFT collection
+Home-page: UNKNOWN
+Author: Prasad Mecheri Chandravihar
+Author-email: <prasadmecheri@gmail.com>
+License: UNKNOWN
+Keywords: python,video,stream,video stream,camera stream,sockets
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+
+UNKNOWN
+

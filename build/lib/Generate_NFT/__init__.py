@@ -1,0 +1,1 @@
+from Generate_NFT import generate_art
