@@ -19,7 +19,7 @@ The source code is currently hosted on GitHub at:
 https://github.com/Mcprasad/Generate_NFT
 
 Binary installers for the latest released version are available at the [Python
-Package Index (PyPI)](https://pypi.org/project/generate-nft)
+Package Index (PyPI)](https://pypi.org/project/generate-nft/#files)
 
 ```sh
 #PyPI
