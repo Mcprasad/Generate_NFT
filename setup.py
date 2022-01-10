@@ -24,7 +24,7 @@ setup(
     license_files = ('LICENSE.txt',),
     keywords=['python', 'NFT', 'Generative-art', 'collections', 'NFTS', 'random image'],
     classifiers=[
-        "Development Status :: 1 - Planning",
+        "Development Status :: 2 - Pre-Alpha",
         "Intended Audience :: Developers",
         "Programming Language :: Python :: 3",
         "Operating System :: Unix",

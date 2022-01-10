@@ -25,6 +25,46 @@ Package Index (PyPI)](https://pypi.org/project/generate-nft)
 #PyPI
 pip install generate-nft
 ```
+## Installation from sources
+Follow the steps given below to install the package from the source 
+
+  - Clone the github repo 
+    ```sh
+    https://github.com/Mcprasad/Generate_NFT.git
+    ```
+  - Run setup.py 
+    ```sh
+    python3 setup.py sdist bdist_wheel
+    ```
+
+## How to use
+```sh
+from Generate_NFT import generate_art
+generate_art.generate("input_image_path","output_image_directory",number_of_mutations,output_width,output_height)
+
+#example
+from Generate_NFT import generate_art
+generate_art.generate("/documents/img.jpg","/documents/output/",50,1920,1920)
+```
+
+## License
+[MIT License](https://github.com/Mcprasad/Generate_NFT/blob/main/LICENSE)
+
+## Future Ideas
+
+  - Ability to combine traits from multiple images 
+  - Extract objects from an image and superimpose those
+  - Generate meta data for each image in ERC721 standard 
+  - Ability to launch the collections into a preferred blockchain; create and register contract, link metamask wallet and IPFS 
+
+
+
+
+
+
+
+
+
 
 
  
