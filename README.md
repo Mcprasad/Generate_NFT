@@ -7,12 +7,15 @@
 
 **generate-nft** is a Python package that creates multiple random mutations of a given picture without needing to feed separate layers of the image. Just provide one image and it can generate multiple variants of that image quickly. 
 
+**Version = 0.0.3**
+
 ## Main Features
 Here are just a few of the things that generate-nft does internally:
 
   - Split the given image into mutliple color channels - RGB, RGBA etc.. 
   - Mix and match these color channels randomly to create unique images 
   - Creates random background images to make it more unique
+  - enhance the color, contrast & brightness of the image randomly 
 
 ## Where to get it
 The source code is currently hosted on GitHub at:
