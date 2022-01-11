@@ -1,3 +1,4 @@
 import generate_art
 
-generate_art.generate('scene.jpeg','', 50, 2048, 2048)
+generate_art.generate('filename.jpg','', 25, 1920, 1920)
+

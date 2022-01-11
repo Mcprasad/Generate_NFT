@@ -1,4 +1,3 @@
-LICENSE
 README.md
 setup.py
 Generate_NFT/__init__.py
