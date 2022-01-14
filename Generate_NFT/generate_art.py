@@ -1,4 +1,4 @@
-def generate(input_filename, output_directory, mutations, output_width, output_height):
+def generate(input_filename, output_directory, mutations, output_width, output_height, experiment_name):
 
     #import all the necessary images 
     from PIL import Image, ImageEnhance
@@ -51,7 +51,7 @@ def generate(input_filename, output_directory, mutations, output_width, output_h
         blend_img = ImageEnhance.Sharpness(blend_img).enhance(random.uniform(1,3))
        
         #save the image to the specified dirctory 
-        blend_img.save(output_directory+str(i)+".jpeg", format="jpeg")
+        blend_img.save(output_directory+experiment_name+"-"+str(i)+".jpeg", format="jpeg")
 
         #increment the mutation counter
         i += 1 

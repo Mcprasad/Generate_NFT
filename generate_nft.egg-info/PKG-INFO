@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: generate-nft
-Version: 0.0.3
+Version: 0.0.4
 Summary: Generate random mutations of an image for an NFT collection
 Home-page: UNKNOWN
 Author: Prasad Mecheri Chandravihar
@@ -26,7 +26,7 @@ Description-Content-Type: text/markdown
 
 **generate-nft** is a Python package that creates multiple random mutations of a given picture without needing to feed separate layers of the image. Just provide one image and it can generate multiple variants of that image quickly. 
 
-**Version = 0.0.3**
+**Version = 0.0.4**
 
 ## Main Features
 Here are just a few of the things that generate-nft does internally:
@@ -35,6 +35,7 @@ Here are just a few of the things that generate-nft does internally:
   - Mix and match these color channels randomly to create unique images 
   - Creates random background images to make it more unique
   - enhance the color, contrast & brightness of the image randomly 
+  - Define an experiment name - the output files will be stored with that name as prefix 
 
 ## Where to get it
 The source code is currently hosted on GitHub at:
@@ -47,6 +48,14 @@ Package Index (PyPI)](https://pypi.org/project/generate-nft/#files)
 #PyPI
 pip install generate-nft
 ```
+
+To update the existing version of the package
+```sh
+#pypi
+pip install -U generate-nft
+```
+
+
 ## Installation from sources
 Follow the steps given below to install the package from the source 
 
@@ -62,11 +71,16 @@ Follow the steps given below to install the package from the source
 ## How to use
 ```sh
 from Generate_NFT import generate_art
-generate_art.generate("input_image_path","output_image_directory",number_of_mutations,output_width,output_height)
+generate_art.generate("input_image_path","output_image_directory",number_of_mutations,output_width,output_height,experiment_name)
+```
 
-#example
+An example is shown below:
+```sh
 from Generate_NFT import generate_art
-generate_art.generate("/documents/img.jpg","/documents/output/",50,1920,1920)
+
+#Program will output with the given experiment name as the prefix 
+experiment_name = "mountains"
+generate_art.generate("/documents/img.jpg","/documents/output/",50,1920,1920,experiment_name)
 ```
 
 ## License
